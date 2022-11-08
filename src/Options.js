@@ -68,7 +68,7 @@ function Options() {
 
 
       <div className="profile">
-        <Avatar style={{height: "2.3rem", width: "2.3rem"}}/>
+        <Avatar className="avatar" style={{height: "2.3rem", width: "2.3rem"}}/>
         <div className="profile-title">
             <label style={{fontWeight: "bold"}}>yunus</label>
             <label>@garavelbeatz</label>

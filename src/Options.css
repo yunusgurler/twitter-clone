@@ -8,17 +8,18 @@
 .options {
     display: flex;
     flex-direction: column;
-
+    
+    height: 100%;
 }
 
 .option {
     display: flex;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding-left: 0.5rem;
     padding-right: 0.7rem;    
     border-radius: 100px;
     width: fit-content;
-    
+    margin-right:auto;
 }
 
 .option:hover{
@@ -62,4 +63,29 @@
 .profile-title>p {
     font-size: 0.8rem;
     
+}
+
+@media only screen and (max-height: 550px) {
+    .profile{
+        visibility: hidden;
+    }    
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .option>p{
+        visibility: hidden;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 70%;
+    }
+    .option{
+        
+    }
+    .tweet-button{
+        max-width: 75px;
+    }
 }
