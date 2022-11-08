@@ -1,0 +1,32 @@
+.post-container {
+    border: 0.7px solid rgb(243, 243, 243);
+    border-left: none;
+    border-right: none;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    max-width: 650px;
+}
+
+.post-top{
+    display: flex;
+    justify-content: space-between;
+}
+.post-top-content{
+    margin-left: 0.7rem;
+    white-space: pre-wrap;
+
+}
+.content-top{
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+.content-top>label{
+    font-size: 13px;
+    margin-right: 0.3rem;
+}
+
+.post-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}

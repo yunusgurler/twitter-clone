@@ -1,0 +1,53 @@
+.trend-container {
+    margin-left: 1.5rem;
+}
+
+.header-tt {
+    border-radius: 100px;
+    background-color: rgb(244, 244, 244);
+
+    display: flex;
+    align-items: center;
+    min-height: 3rem;
+    max-height: 3rem;
+    position: sticky;
+    top: 1rem;
+    
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.search>input {
+    margin-left: 0.5rem;
+    /* height: 1rem; */
+    max-width: 250px;
+    min-width: 250px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background-color: inherit;
+    position: relative;
+}
+
+.trends {
+    background-color: rgb(244, 244, 244);
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    min-width: 310px;
+    max-width: 310px;
+    position: sticky;
+    top: 5rem;
+
+}
+
+.trends>p {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    font-weight: 1500;
+    font-size: 20px;
+}

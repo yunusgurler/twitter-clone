@@ -1,0 +1,28 @@
+.tt-container{
+    padding-left: 0.8rem;
+    /* margin-bottom: 1rem; */
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+
+}
+.tt-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tt-bottom {
+    display: flex;
+    flex-direction: column;
+
+}
+.category{
+    display: flex;
+}
+.tt-container:hover{
+    background-color: rgb(227, 227, 227);
+}
+.icon{
+    margin-right: 1rem;
+    
+}

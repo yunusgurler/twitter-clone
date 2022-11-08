@@ -1,0 +1,65 @@
+.options-container {
+    margin-right: 2rem;
+    position: sticky;
+    top: 1rem;
+    
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.option {
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.7rem;    
+    border-radius: 100px;
+    width: fit-content;
+    
+}
+
+.option:hover{
+    background-color: lightgray;
+    
+}
+
+.option>p {
+    margin-left: 1rem;
+    padding-top: 0.3rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tweet-button {
+    border-radius: 100rem;
+    border: none;
+    background-color: #00acee;
+    color: white;
+    width: 200px;
+    height: 3rem;
+    font-weight: 800;
+}
+
+.profile {
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-title {
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}   
+.profile-title>p {
+    font-size: 0.8rem;
+    
+}
